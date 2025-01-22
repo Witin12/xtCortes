@@ -1,0 +1,7 @@
+PALETA DE CORES 
+#FCB900 = AMARELO (LETRAS E DETALHES)
+#303030 = CINZA ESCURO (FUNDO)
+#F7F7F7 = BRANCO (FUNDO)
+#00C61E = VERDE (BOTÕES)
+
+Link design - https://www.figma.com/design/sWfW1UUNtVorVp37wA5vPR/XT-Corts?node-id=14-30&t=U8rKLQRy7w1Ccq1S-0
