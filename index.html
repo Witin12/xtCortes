@@ -33,7 +33,83 @@
                 <h3>14 99999-9999</h3>
             </div>
         </div>
-        <div class="line"></div>
+        <span class="line"></span>
+    </div>
+
+    <!-- Serviços oferecidos -->
+    <div class="serviceContainer">
+        <div class="titleService">
+            <h2>Serivços Disponíveis</h2>
+            <span class="lineService"></span>
+        </div>
+        <div class="cardsContainer">
+            <div class="card">
+                <img src="img/foto card.png" alt="Foto do Serviço">
+                <h4>Cabelo e Barba</h4>
+                <p>R$50,00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agendamentos de Horários -->
+    <div class="agendamentoContainer">
+        <div class="titleAgendamento">
+            <h2>Agendamentos</h2>
+            <span class="lineAgendamentos"></span>
+        </div>
+        <div class="formContainer">
+            <form>
+                <div class="tipoForm">
+                    <label for="">Tipo de Serviço</label>
+                    <select name="typeService" id="service" class="form-control">
+                        <option value="">Cabelo Degradê</option>
+                        <option value="">Cabelo Social</option>
+                        <option value="">Cabelo e Barba</option>
+                        <option value="">Barba</option>
+                        <option value="">Cabelo, Barba e Sobrancelha</option>
+                    </select>
+                </div>
+                <div class="dateForm">
+                    <label for="">Data</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div class="hoursForm">
+                    <label for="">Horário</label>
+                    <input type="time" name="hours" id="hours">
+                </div>
+                <div class="btnForm">
+                    <button class="btn">Agende seu horário</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Localização via Google Maps -->
+    <div class="localContainer">
+        <div class="titleLocal">
+            <h2>Venha Conhecer</h2>
+            <p>Av. Alfredo Pauleti - nº 780</p>
+            <span class="lineLocal"></span>
+        </div>
+        <div class="localMap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.6798925615421!2d-48.972261847488596!3d-22.477170124158544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c0a138735372ed%3A0x6749f681c84471f3!2sAv.%20Alfredo%20Paulete%2C%20780%20-%20Jardim%20Vienense%2C%20Agudos%20-%20SP%2C%2017120-000!5e0!3m2!1spt-BR!2sbr!4v1737588034198!5m2!1spt-BR!2sbr"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footerContainer">
+        <footer>
+            <h2>Pronto para atualizar seu estilo?</h2>
+            <h2>Agende conosco agora!</h2>
+            <div class="info">
+                <p>Atendimento de terça à sábado das 08H às 18H</p>
+                <button class="btn">Agende seu horário</button>
+            </div>
+            <p>Desenvolvido por Witor Santos - 2025 &copy;</p>
+        </footer>
     </div>
 </body>
 
