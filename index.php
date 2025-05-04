@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XT CORTES</title>
+    <title>Xt Cortes | Página Inicial</title>
 
     <!--* links -->
     <link rel="stylesheet" href="css/style.css">
@@ -27,7 +27,7 @@
                 <img src="img/logo.png" alt="Logo XT Cortes">
             </div>
             <div class="contato">
-                <h3>14 99999-9999</h3>
+                <h3>14 99151-7548</h3>
             </div>
         </div>
         <span class="lineNav"></span>
@@ -39,27 +39,42 @@
             <h2>Serviços Disponíveis</h2>
         </div>
         <span class="lineService"></span>
-        <div class="cardsContainer">
-            <div class="card">
-                <img src="img/foto card.png" alt="Foto do Serviço">
-                <h4>Cabelo e Barba</h4>
-                <p>R$50,00</p>
+        <div class="carousel">
+            <button class="arrow left">&lt;</button>
+            <div class="cardsContainer">
+                <div class="card">
+                    <img src="img/fotoCard.png" alt="Foto do Serviço">
+                    <h4>Degradê e Barba</h4>
+                    <p>R$40,00</p>
+                </div>
+                <div class="card">
+                    <img src="img/fotoCard.png" alt="Foto do Serviço">
+                    <h4>Cabelo Degradê</h4>
+                    <p>R$30,00</p>
+                </div>
+                <div class="card">
+                    <img src="img/fotoCard.png" alt="Foto do Serviço">
+                    <h4>Social e Barba</h4>
+                    <p>R$35,00</p>
+                </div>
+                <div class="card">
+                    <img src="img/fotoCard.png" alt="Foto do Serviço">
+                    <h4>Social</h4>
+                    <p>R$25,00</p>
+                </div>
+                <div class="card">
+                    <img src="img/fotoCard.png" alt="Foto do Serviço">
+                    <h4>Corte e Pigmentação</h4>
+                    <p>R$50,00</p>
+                </div>
             </div>
-            <div class="card">
-                <img src="img/foto card.png" alt="Foto do Serviço">
-                <h4>Cabelo Degradê</h4>
-                <p>R$30,00</p>
-            </div>
-            <div class="card">
-                <img src="img/foto card.png" alt="Foto do Serviço">
-                <h4>Barba</h4>
-                <p>R$20,00</p>
-            </div>
+            <button class="arrow right">&gt;</button>
         </div>
+
     </div>
 
     <!-- Agendamentos de Horários -->
-    <div class="agendamentoContainer">
+    <div class="agendamentoContainer" id="agendamento">
         <div class="titleAgendamento">
             <h2>Agendamentos</h2>
         </div>
@@ -69,11 +84,11 @@
                 <div class="tipoForm">
                     <label for="">Tipo de Serviço</label>
                     <select name="typeService" id="service" class="form-control">
-                        <option value="">Cabelo Degradê</option>
-                        <option value="">Cabelo Social</option>
-                        <option value="">Cabelo e Barba</option>
-                        <option value="">Barba</option>
-                        <option value="">Cabelo, Barba e Sobrancelha</option>
+                        <option value="Degradê e Barba">Degradê e Barba</option>
+                        <option value="Cabelo Degradê">Cabelo Degradê</option>
+                        <option value="Social e Barba">Social e Barba</option>
+                        <option value="Social">Social</option>
+                        <option value="Corte e Pigmentação">Corte e Pigmentação</option>
                     </select>
                 </div>
                 <div class="dateForm">
@@ -82,10 +97,28 @@
                 </div>
                 <div class="hoursForm">
                     <label for="">Horário</label>
-                    <input type="time" name="hours" id="hours">
+                    <select id="hours">
+                        <option value="08">08:00</option>
+                        <option value="09">09:00</option>
+                        <option value="10">10:00</option>
+                        <option value="11">11:00</option>
+                        <option value="13">13:00</option>
+                        <option value="14">14:00</option>
+                        <option value="15">15:00</option>
+                        <option value="16">16:00</option>
+                        <option value="17">17:00</option>
+                    </select>
+                </div>
+                <div class="nameForm">
+                    <label for="">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome...">
+                </div>
+                <div class="cellForm">
+                    <label for="">Número de contato</label>
+                    <input type="text" name="cell" id="cell" placeholder="Digite o telefone de contato...">
                 </div>
                 <div class="btnForm">
-                    <button class="btn">Agende seu horário</button>
+                    <button type="button" class="btn" id="btnForm">Agende seu horário</button>
                 </div>
             </form>
         </div>
